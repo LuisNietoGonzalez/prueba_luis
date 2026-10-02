@@ -1,1 +1,2 @@
-Este es el primer archivo
+This is the first file 
+Modified from Linux Debian.
