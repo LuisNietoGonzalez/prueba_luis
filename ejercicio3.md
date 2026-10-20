@@ -27,6 +27,9 @@ El asterisco indica la rama activa (`main`). `primera` aparece en la lista, así
 Se modifica la misma línea de `datos.txt` en `segunda` y en `main`:
 
 ![captura5](imagenes/ej3cap5.png)
+
+![captura6](imagenes/ej3cap6.png)
+
 ```bash
 git checkout -b segunda
 echo "cambio desde segunda" > datos.txt
