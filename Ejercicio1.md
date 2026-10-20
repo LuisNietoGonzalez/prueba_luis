@@ -7,7 +7,7 @@ Vamos a crear un nuevo repositorio llamado **prueba2_luis**.
   texto: *archivo1.txt* y *archivo2.txt*. El contenido de ambos archivos
   es libre.
 
-![captura1](/Repositorios/prueba_luis/imagenes/captura1.png)
+![captura1](imagenes/captura1.png)
 
 - Conectamos el repositorio local con un repositorio remoto en
   GitHub usando *git remote add*.
