@@ -9,7 +9,7 @@ Un **pull request** es una petición que le haces al dueño de un repositorio pa
  
 ## Paso 1: Hacer un fork del repositorio
  
-![Fork del repositorio](imagenes/paso1_fork.png)
+![Captura1](imagenes/ej4cap2.png)
  
 No puedo cambiar directamente el repositorio del profesor, así que primero hago un **fork**: una copia del repositorio en mi propia cuenta. Se ve arriba, donde pone `LuisNietoGonzalez / prueba-pr-iaw_202627`. Esa copia es mía y puedo modificarla libremente.
  
