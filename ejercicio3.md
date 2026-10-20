@@ -13,24 +13,7 @@ El asterisco indica la rama activa (`main`). `primera` aparece en la lista, así
 
 ![captura3](imagenes/ej3cap3.png)
 
-```bash
-git checkout primera
-echo "nuevo" > nuevo.txt
-git add .
-git commit -m "añade nuevo.txt"
-git checkout main
-git merge primera
-```
 
-Salida de la fusión:
-
-```
-Updating 944bfca..9abf305
-Fast-forward
- nuevo.txt | 1 +
- 1 file changed, 1 insertion(+)
- create mode 100644 nuevo.txt
-```
 
 **¿Hubo conflicto? No.** Mientras trabajaba en `primera`, `main` no recibió ningún commit nuevo, de modo que `main` era un ancestro directo de `primera`. Git solo tuvo que avanzar el puntero de `main` hasta el último commit de `primera` (*fast-forward*), sin combinar cambios distintos. Además, el único cambio fue añadir un fichero nuevo, que no toca ningún contenido existente.
 
