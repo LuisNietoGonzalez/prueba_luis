@@ -2,10 +2,7 @@
 
 ## 1. Crear la rama `primera` y comprobarlo
 
-```bash
-git branch primera
-git branch
-```
+![captura1](imagenes/ej3cap1.png)
 
 Salida:
 
