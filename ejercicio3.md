@@ -11,6 +11,8 @@ El asterisco indica la rama activa (`main`). `primera` aparece en la lista, así
 
 ![captura2](imagenes/ej3cap2.png)
 
+![captura3](imagenes/ej3cap3.png)
+
 ```bash
 git checkout primera
 echo "nuevo" > nuevo.txt
