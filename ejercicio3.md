@@ -15,7 +15,7 @@ El asterisco indica la rama activa (`main`). `primera` aparece en la lista, así
 
 
 
-**¿Hubo conflicto? No.** Mientras trabajaba en `primera`, `main` no recibió ningún commit nuevo, de modo que `main` era un ancestro directo de `primera`. Git solo tuvo que avanzar el puntero de `main` hasta el último commit de `primera` (*fast-forward*), sin combinar cambios distintos. Además, el único cambio fue añadir un fichero nuevo, que no toca ningún contenido existente.
+**¿Hubo conflicto?** No porque un conflicto solo aparece cuando dos ramas cambian lo mismo (la misma línea del mismo fichero) y Git no sabe con cuál quedarse. Aquí solo se cambió una rama: en primera añadí un fichero nuevo y en main no hice nada. 
 
 ## 3. Borrar la rama `primera`
 
