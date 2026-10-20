@@ -21,20 +21,12 @@ El asterisco indica la rama activa (`main`). `primera` aparece en la lista, así
 
 ![captura4](imagenes/ej3cap4.png)
 
-```bash
-git branch -d primera
-git branch
-```
-
-```
-Deleted branch primera (was 9abf305).
-* main
-```
 
 ## 4. Rama `segunda` y conflicto
 
 Se modifica la misma línea de `datos.txt` en `segunda` y en `main`:
 
+![captura5](imagenes/ej3cap5.png)
 ```bash
 git checkout -b segunda
 echo "cambio desde segunda" > datos.txt
