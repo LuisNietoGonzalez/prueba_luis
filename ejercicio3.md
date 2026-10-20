@@ -19,6 +19,8 @@ El asterisco indica la rama activa (`main`). `primera` aparece en la lista, así
 
 ## 3. Borrar la rama `primera`
 
+![captura4](imagenes/ej3cap4.png)
+
 ```bash
 git branch -d primera
 git branch
