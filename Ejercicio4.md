@@ -87,29 +87,6 @@ Ahora solo queda **esperar a que el profesor lo acepte**.
  
 ---
  
-## Paso final: Sincronizar mi repositorio
- 
-Cuando el profesor acepte el pull request, tengo que traerme los ficheros de todos mis compañeros. Hay dos formas:
- 
-- En GitHub, con el botón **Sync fork** de mi fork.
-- En la terminal, con estos comandos:
-```bash
-git remote add upstream https://github.com/lgarciavelazquez/prueba-pr-iaw_202627.git
-git checkout main
-git pull upstream main
-```
- 
----
- 
-## Resumen del orden
- 
-| Orden | Qué hago | Captura |
-|-------|----------|---------|
-| 1 | Hago el fork | `paso1_fork.png` |
-| 2 | Edito el `README.md` | `paso2_readme.png` |
-| 3 | Creo `LNG.md` | `paso3_fichero_md.png` |
-| 4 | Commit y push | `paso4_commit_push.png` |
-| 5 | Pulso *Compare & pull request* | `paso5_github_banner.png` |
-| 6 | Pull request abierto | `paso6_pull_request.png` |
+
  
 
