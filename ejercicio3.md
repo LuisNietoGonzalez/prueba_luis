@@ -30,17 +30,6 @@ Se modifica la misma línea de `datos.txt` en `segunda` y en `main`:
 
 ![captura6](imagenes/ej3cap6.png)
 
-```bash
-git checkout -b segunda
-echo "cambio desde segunda" > datos.txt
-git commit -am "cambia datos en segunda"
-
-git checkout main
-echo "cambio desde main" > datos.txt
-git commit -am "cambia datos en main"
-
-git merge segunda
-```
 
 Salida:
 
@@ -62,39 +51,8 @@ cambio desde segunda
 
 ## 5. Resolución del conflicto y sincronización con GitHub
 
-Se edita `datos.txt`, se eliminan los marcadores y se conservan ambos cambios:
 
-```
-cambio desde main
-cambio desde segunda
-```
 
-```bash
-git add datos.txt
-git commit -m "Resuelve conflicto entre main y segunda"
-git log --oneline --graph
-```
 
-```
-*   2049411 Resuelve conflicto entre main y segunda
-|\
-| * 8770b84 cambia datos en segunda
-* | 92af971 cambia datos en main
-|/
-* 9abf305 añade nuevo.txt
-* 944bfca commit inicial
-```
 
-Sincronización con el remoto (repositorio `prueba_tu_nombre`):
 
-```bash
-git remote add origin https://github.com/<tu_usuario>/prueba_tu_nombre.git
-git push -u origin main
-git push -u origin segunda
-```
-
-### Captura de pantalla
-
-> Pega aquí la captura de GitHub donde se vea la rama `segunda`:
->
-> `![Rama segunda en GitHub](captura_segunda.png)`
