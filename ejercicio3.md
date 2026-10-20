@@ -4,16 +4,12 @@
 
 ![captura1](imagenes/ej3cap1.png)
 
-Salida:
-
-```
-* main
-  primera
-```
 
 El asterisco indica la rama activa (`main`). `primera` aparece en la lista, así que se ha creado.
 
 ## 2. Nuevo fichero en `primera` y fusión con la principal
+
+![captura2](imagenes/ej3cap2.png)
 
 ```bash
 git checkout primera
