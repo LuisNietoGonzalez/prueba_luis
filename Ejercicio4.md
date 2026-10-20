@@ -19,7 +19,7 @@ Después clono mi fork en el ordenador y creo una **rama nueva** (en mi caso `ra
  
 ## Paso 2: Modificar el `README.md`
  
-![Editando el README](imagenes/paso2_readme.png)
+![Captura2](imagenes/ej4cap5.png)
  
 Abro el `README.md` con `nano` y añado una línea nueva al final de la lista, con mis iniciales y un enlace a mi fichero:
  
@@ -33,7 +33,7 @@ Lo que va entre corchetes es el texto que se ve (mis iniciales) y lo que va entr
  
 ## Paso 3: Crear mi fichero `LNG.md`
  
-![Contenido de LNG.md](imagenes/paso3_fichero_md.png)
+![Captura3](imagenes/ej4cap6.png)
  
 Creo el fichero `LNG.md` dentro de la carpeta `files` y respondo a las tres preguntas: ¿quién eres?, ¿qué asignatura te gusta más? y ¿por qué?
  
@@ -49,7 +49,7 @@ Uso varias marcas de Markdown, más de las 5 que pide el enunciado:
  
 ## Paso 4: Commit y push
  
-![Commit y push en la terminal](imagenes/paso4_commit_push.png)
+![Captura4](imagenes/ej4cap4.png)
  
 Guardo los cambios y los subo a GitHub con estos comandos:
  
@@ -66,7 +66,7 @@ git push --set-upstream origin ramaluis
  
 ## Paso 5: GitHub me ofrece crear el pull request
  
-![Banner Compare & pull request](imagenes/paso5_github_banner.png)
+![Captura5](imagenes/ej4cap1.png)
  
 Al entrar en mi fork, GitHub detecta que acabo de subir una rama nueva y muestra el aviso amarillo con el botón verde **Compare & pull request**. Pulso ese botón para empezar la petición.
  
@@ -76,7 +76,7 @@ En esta captura también aparece **"This branch is 7 commits behind"**: signific
  
 ## Paso 6: Pull request creado
  
-![Pull request abierto](imagenes/paso6_pull_request.png)
+![Captura6](imagenes/ej4cap3.png)
  
 Aquí está el pull request **#16**, con estado **Open** (abierto):
  
