@@ -50,6 +50,29 @@ cambio desde segunda
 ```
 
 ## 5. Resolución del conflicto y sincronización con GitHub
+no lo he conseguido realizar pero seria de esta forma:
+
+Se edita `datos.txt`, se eliminan los marcadores y se conservan ambos cambios:
+ 
+```
+cambio desde main
+cambio desde segunda
+```
+ 
+```bash
+git add datos.txt
+git commit -m "Resuelve conflicto entre main y segunda"
+git log --oneline --graph
+``` 
+ 
+Sincronización con el remoto (repositorio `prueba_tu_nombre`):
+ 
+```bash
+git remote add origin https://github.com/<tu_usuario>/prueba_tu_nombre.git
+git push -u origin main
+git push -u origin segunda
+```
+
 
 
 
